@@ -487,13 +487,13 @@ DATA_SOURCE = {
 - `quality_report_*.json` - 每次运行生成的质量报告
 - `visualization_data.json` - 可视化数据
 
-## 📞 联系方式
+## 📞 联系方式：18163822754
 
-项目作者：Vehicle Realtime Warehouse Team
+项目作者：蒋浩伟
 
 版本：1.0.0
 
-最后更新：2024年
+最后更新：2026年
 
 ---
 
