@@ -1,0 +1,177 @@
+{
+  "vehicle_summary": [
+    {
+      "vehicle_id": "EV_001",
+      "total_energy_kwh": 394.7296430138889,
+      "total_distance_km": 1147.667329861111,
+      "daily_energy_consumption": 44.621887769766964,
+      "rapid_acceleration_count": 421.0,
+      "high_temp_duration_hours": 17.35451388888889
+    },
+    {
+      "vehicle_id": "EV_002",
+      "total_energy_kwh": 393.02967775694447,
+      "total_distance_km": 1105.4688854166668,
+      "daily_energy_consumption": 44.53313839296713,
+      "rapid_acceleration_count": 426.25,
+      "high_temp_duration_hours": 17.355555555555554
+    },
+    {
+      "vehicle_id": "EV_003",
+      "total_energy_kwh": 392.8747147083334,
+      "total_distance_km": 1144.3767881944445,
+      "daily_energy_consumption": 42.4317085191275,
+      "rapid_acceleration_count": 418.0,
+      "high_temp_duration_hours": 17.355208333333334
+    },
+    {
+      "vehicle_id": "EV_004",
+      "total_energy_kwh": 394.0689028645834,
+      "total_distance_km": 1118.2383472222223,
+      "daily_energy_consumption": 44.58009818504418,
+      "rapid_acceleration_count": 409.25,
+      "high_temp_duration_hours": 17.35451388888889
+    },
+    {
+      "vehicle_id": "EV_005",
+      "total_energy_kwh": 393.3663855208333,
+      "total_distance_km": 1111.5275069444444,
+      "daily_energy_consumption": 44.66669786210913,
+      "rapid_acceleration_count": 416.75,
+      "high_temp_duration_hours": 17.355208333333334
+    },
+    {
+      "vehicle_id": "EV_006",
+      "total_energy_kwh": 394.73225792361114,
+      "total_distance_km": 1146.9178611111113,
+      "daily_energy_consumption": 44.55763120428065,
+      "rapid_acceleration_count": 419.75,
+      "high_temp_duration_hours": 17.35590277777778
+    },
+    {
+      "vehicle_id": "EV_007",
+      "total_energy_kwh": 392.9751876527778,
+      "total_distance_km": 1113.78846875,
+      "daily_energy_consumption": 44.97849249827104,
+      "rapid_acceleration_count": 427.5,
+      "high_temp_duration_hours": 17.355208333333334
+    },
+    {
+      "vehicle_id": "EV_008",
+      "total_energy_kwh": 392.98437853819445,
+      "total_distance_km": 1160.4795902777778,
+      "daily_energy_consumption": 42.076898031089385,
+      "rapid_acceleration_count": 420.0,
+      "high_temp_duration_hours": 17.355208333333334
+    },
+    {
+      "vehicle_id": "EV_009",
+      "total_energy_kwh": 392.6302699305556,
+      "total_distance_km": 1111.614125,
+      "daily_energy_consumption": 43.47163240957073,
+      "rapid_acceleration_count": 432.75,
+      "high_temp_duration_hours": 17.35590277777778
+    },
+    {
+      "vehicle_id": "EV_010",
+      "total_energy_kwh": 393.14119056944446,
+      "total_distance_km": 1120.902482638889,
+      "daily_energy_consumption": 42.97682210941779,
+      "rapid_acceleration_count": 410.25,
+      "high_temp_duration_hours": 17.355208333333334
+    }
+  ],
+  "metrics_summary": {
+    "total_energy_kwh": {
+      "mean": 393.45,
+      "min": 42.57,
+      "max": 683.46
+    },
+    "total_distance_km": {
+      "mean": 1128.1,
+      "min": 66.37,
+      "max": 2247.45
+    },
+    "daily_energy_consumption": {
+      "mean": 43.89,
+      "min": 30.38,
+      "max": 72.36
+    },
+    "rapid_acceleration_count": {
+      "mean": 420.15,
+      "min": 72.0,
+      "max": 865.0
+    },
+    "high_temp_duration_hours": {
+      "mean": 17.36,
+      "min": 4.22,
+      "max": 24.0
+    },
+    "total_mileage_km": {
+      "mean": 1128.1,
+      "min": 66.37,
+      "max": 2247.45
+    },
+    "driving_time_hours": {
+      "mean": 15.97,
+      "min": 4.08,
+      "max": 24.0
+    },
+    "charging_frequency": {
+      "mean": 0.25,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "average_speed": {
+      "mean": 55.75,
+      "min": 15.64,
+      "max": 93.64
+    },
+    "max_speed": {
+      "mean": 123.42,
+      "min": 42.14,
+      "max": 177.05
+    },
+    "min_speed": {
+      "mean": 9.17,
+      "min": 0.0,
+      "max": 45.45
+    },
+    "speed_std": {
+      "mean": 28.79,
+      "min": 9.5,
+      "max": 67.69
+    },
+    "total_recovered_energy": {
+      "mean": 16.69,
+      "min": 0.0,
+      "max": 69.09
+    },
+    "total_consumed_energy": {
+      "mean": 376.76,
+      "min": 42.56,
+      "max": 683.46
+    },
+    "brake_energy_recovery_rate": {
+      "mean": 3.93,
+      "min": 0.0,
+      "max": 16.33
+    },
+    "battery_health_index": {
+      "mean": 98.27,
+      "min": 97.6,
+      "max": 99.58
+    },
+    "soc_cycles": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "quality_stats": {
+    "original_count": 500000,
+    "final_count": 500000,
+    "completeness": 100.0,
+    "duplicate_rate": 0.0
+  }
+}

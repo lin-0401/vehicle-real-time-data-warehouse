@@ -1,0 +1,700 @@
+{
+  "original_quality": {
+    "report_time": "2026-06-08 17:13:11",
+    "original_count": 500000,
+    "completeness": {
+      "total_records": 500000,
+      "total_cells": 8000000,
+      "null_cells": 0,
+      "completeness": 100.0,
+      "column_null_rates": {
+        "timestamp": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "vehicle_id": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "speed": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "battery_voltage": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "battery_current": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "battery_temperature": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "motor_temperature": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "motor_rpm": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "soc": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "throttle": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "brake": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "charging_status": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "energy_consumption": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "cabin_temperature": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_rate": 0.0
+        }
+      }
+    },
+    "duplicates": {
+      "duplicate_count": 0,
+      "duplicate_rate": 0.0,
+      "key_columns": [
+        "vehicle_id",
+        "timestamp"
+      ],
+      "examples": null
+    },
+    "outliers": {
+      "iqr_method": {
+        "battery_voltage": {
+          "column": "battery_voltage",
+          "method": "IQR",
+          "Q1": 297.1,
+          "Q3": 304.8,
+          "IQR": 7.7,
+          "lower_bound": 285.55,
+          "upper_bound": 316.35,
+          "outlier_count": 45814,
+          "outlier_rate": 9.16
+        },
+        "battery_current": {
+          "column": "battery_current",
+          "method": "IQR",
+          "Q1": 44.5,
+          "Q3": 103.6,
+          "IQR": 59.1,
+          "lower_bound": -44.15,
+          "upper_bound": 192.25,
+          "outlier_count": 7428,
+          "outlier_rate": 1.49
+        },
+        "battery_temperature": {
+          "column": "battery_temperature",
+          "method": "IQR",
+          "Q1": 60.0,
+          "Q3": 60.0,
+          "IQR": 0.0,
+          "lower_bound": 60.0,
+          "upper_bound": 60.0,
+          "outlier_count": 7385,
+          "outlier_rate": 1.48
+        },
+        "motor_temperature": {
+          "column": "motor_temperature",
+          "method": "IQR",
+          "Q1": 150.0,
+          "Q3": 150.0,
+          "IQR": 0.0,
+          "lower_bound": 150.0,
+          "upper_bound": 150.0,
+          "outlier_count": 423,
+          "outlier_rate": 0.08
+        },
+        "motor_rpm": {
+          "column": "motor_rpm",
+          "method": "IQR",
+          "Q1": 886.0,
+          "Q3": 2866.0,
+          "IQR": 1980.0,
+          "lower_bound": -2084.0,
+          "upper_bound": 5836.0,
+          "outlier_count": 836,
+          "outlier_rate": 0.17
+        },
+        "soc": {
+          "column": "soc",
+          "method": "IQR",
+          "Q1": 0.0,
+          "Q3": 0.0,
+          "IQR": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0,
+          "outlier_count": 53492,
+          "outlier_rate": 10.7
+        },
+        "brake": {
+          "column": "brake",
+          "method": "IQR",
+          "Q1": 0.0,
+          "Q3": 0.0,
+          "IQR": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0,
+          "outlier_count": 106625,
+          "outlier_rate": 21.32
+        },
+        "charging_status": {
+          "column": "charging_status",
+          "method": "IQR",
+          "Q1": 0.0,
+          "Q3": 0.0,
+          "IQR": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0,
+          "outlier_count": 25000,
+          "outlier_rate": 5.0
+        },
+        "energy_consumption": {
+          "column": "energy_consumption",
+          "method": "IQR",
+          "Q1": 29.59,
+          "Q3": 43.55,
+          "IQR": 13.96,
+          "lower_bound": 8.65,
+          "upper_bound": 64.49,
+          "outlier_count": 64288,
+          "outlier_rate": 12.86
+        },
+        "cabin_temperature": {
+          "column": "cabin_temperature",
+          "method": "IQR",
+          "Q1": 20.7,
+          "Q3": 23.4,
+          "IQR": 2.7,
+          "lower_bound": 16.65,
+          "upper_bound": 27.45,
+          "outlier_count": 3522,
+          "outlier_rate": 0.7
+        }
+      },
+      "physical_method": {
+        "speed": {
+          "column": "speed",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            200
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "battery_voltage": {
+          "column": "battery_voltage",
+          "method": "physical_range",
+          "physical_range": [
+            200,
+            450
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "battery_current": {
+          "column": "battery_current",
+          "method": "physical_range",
+          "physical_range": [
+            -200,
+            200
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "battery_temperature": {
+          "column": "battery_temperature",
+          "method": "physical_range",
+          "physical_range": [
+            -20,
+            60
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "motor_temperature": {
+          "column": "motor_temperature",
+          "method": "physical_range",
+          "physical_range": [
+            -20,
+            150
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "motor_rpm": {
+          "column": "motor_rpm",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            15000
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "soc": {
+          "column": "soc",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            100
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "throttle": {
+          "column": "throttle",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            100
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "brake": {
+          "column": "brake",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            1
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "energy_consumption": {
+          "column": "energy_consumption",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            50
+          ],
+          "outlier_count": 91621,
+          "outlier_rate": 18.32
+        },
+        "cabin_temperature": {
+          "column": "cabin_temperature",
+          "method": "physical_range",
+          "physical_range": [
+            -10,
+            50
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "latitude": {
+          "column": "latitude",
+          "method": "physical_range",
+          "physical_range": [
+            18,
+            54
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "longitude": {
+          "column": "longitude",
+          "method": "physical_range",
+          "physical_range": [
+            73,
+            135
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        }
+      },
+      "total_physical_outliers": 91621,
+      "total_physical_outlier_rate": 18.32
+    }
+  },
+  "cleaning_steps": {
+    "deduplication": {
+      "original_count": 500000,
+      "after_dedup": 500000,
+      "removed_count": 0,
+      "key_columns": [
+        "vehicle_id",
+        "timestamp"
+      ]
+    },
+    "null_filling": {},
+    "outlier_handling": {
+      "method": "physical",
+      "action": "clip",
+      "columns": {
+        "energy_consumption": {
+          "range": [
+            0,
+            50
+          ],
+          "outliers_before": 91621,
+          "outliers_after": 0
+        }
+      }
+    }
+  },
+  "final_quality": {
+    "report_time": "2026-06-08 17:13:11",
+    "original_count": 500000,
+    "completeness": {
+      "total_records": 500000,
+      "total_cells": 8000000,
+      "null_cells": 0,
+      "completeness": 100.0,
+      "column_null_rates": {
+        "timestamp": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "vehicle_id": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "speed": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "battery_voltage": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "battery_current": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "battery_temperature": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "motor_temperature": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "motor_rpm": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "soc": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "throttle": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "brake": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "charging_status": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "energy_consumption": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "cabin_temperature": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_rate": 0.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_rate": 0.0
+        }
+      }
+    },
+    "duplicates": {
+      "duplicate_count": 0,
+      "duplicate_rate": 0.0,
+      "key_columns": [
+        "vehicle_id",
+        "timestamp"
+      ],
+      "examples": null
+    },
+    "outliers": {
+      "iqr_method": {
+        "battery_voltage": {
+          "column": "battery_voltage",
+          "method": "IQR",
+          "Q1": 297.1,
+          "Q3": 304.8,
+          "IQR": 7.7,
+          "lower_bound": 285.55,
+          "upper_bound": 316.35,
+          "outlier_count": 45814,
+          "outlier_rate": 9.16
+        },
+        "battery_current": {
+          "column": "battery_current",
+          "method": "IQR",
+          "Q1": 44.5,
+          "Q3": 103.6,
+          "IQR": 59.1,
+          "lower_bound": -44.15,
+          "upper_bound": 192.25,
+          "outlier_count": 7428,
+          "outlier_rate": 1.49
+        },
+        "battery_temperature": {
+          "column": "battery_temperature",
+          "method": "IQR",
+          "Q1": 60.0,
+          "Q3": 60.0,
+          "IQR": 0.0,
+          "lower_bound": 60.0,
+          "upper_bound": 60.0,
+          "outlier_count": 7385,
+          "outlier_rate": 1.48
+        },
+        "motor_temperature": {
+          "column": "motor_temperature",
+          "method": "IQR",
+          "Q1": 150.0,
+          "Q3": 150.0,
+          "IQR": 0.0,
+          "lower_bound": 150.0,
+          "upper_bound": 150.0,
+          "outlier_count": 423,
+          "outlier_rate": 0.08
+        },
+        "motor_rpm": {
+          "column": "motor_rpm",
+          "method": "IQR",
+          "Q1": 886.0,
+          "Q3": 2866.0,
+          "IQR": 1980.0,
+          "lower_bound": -2084.0,
+          "upper_bound": 5836.0,
+          "outlier_count": 836,
+          "outlier_rate": 0.17
+        },
+        "soc": {
+          "column": "soc",
+          "method": "IQR",
+          "Q1": 0.0,
+          "Q3": 0.0,
+          "IQR": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0,
+          "outlier_count": 53492,
+          "outlier_rate": 10.7
+        },
+        "brake": {
+          "column": "brake",
+          "method": "IQR",
+          "Q1": 0.0,
+          "Q3": 0.0,
+          "IQR": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0,
+          "outlier_count": 106625,
+          "outlier_rate": 21.32
+        },
+        "charging_status": {
+          "column": "charging_status",
+          "method": "IQR",
+          "Q1": 0.0,
+          "Q3": 0.0,
+          "IQR": 0.0,
+          "lower_bound": 0.0,
+          "upper_bound": 0.0,
+          "outlier_count": 25000,
+          "outlier_rate": 5.0
+        },
+        "energy_consumption": {
+          "column": "energy_consumption",
+          "method": "IQR",
+          "Q1": 29.59,
+          "Q3": 43.55,
+          "IQR": 13.96,
+          "lower_bound": 8.65,
+          "upper_bound": 64.49,
+          "outlier_count": 195,
+          "outlier_rate": 0.04
+        },
+        "cabin_temperature": {
+          "column": "cabin_temperature",
+          "method": "IQR",
+          "Q1": 20.7,
+          "Q3": 23.4,
+          "IQR": 2.7,
+          "lower_bound": 16.65,
+          "upper_bound": 27.45,
+          "outlier_count": 3522,
+          "outlier_rate": 0.7
+        }
+      },
+      "physical_method": {
+        "speed": {
+          "column": "speed",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            200
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "battery_voltage": {
+          "column": "battery_voltage",
+          "method": "physical_range",
+          "physical_range": [
+            200,
+            450
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "battery_current": {
+          "column": "battery_current",
+          "method": "physical_range",
+          "physical_range": [
+            -200,
+            200
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "battery_temperature": {
+          "column": "battery_temperature",
+          "method": "physical_range",
+          "physical_range": [
+            -20,
+            60
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "motor_temperature": {
+          "column": "motor_temperature",
+          "method": "physical_range",
+          "physical_range": [
+            -20,
+            150
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "motor_rpm": {
+          "column": "motor_rpm",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            15000
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "soc": {
+          "column": "soc",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            100
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "throttle": {
+          "column": "throttle",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            100
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "brake": {
+          "column": "brake",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            1
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "energy_consumption": {
+          "column": "energy_consumption",
+          "method": "physical_range",
+          "physical_range": [
+            0,
+            50
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "cabin_temperature": {
+          "column": "cabin_temperature",
+          "method": "physical_range",
+          "physical_range": [
+            -10,
+            50
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "latitude": {
+          "column": "latitude",
+          "method": "physical_range",
+          "physical_range": [
+            18,
+            54
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        },
+        "longitude": {
+          "column": "longitude",
+          "method": "physical_range",
+          "physical_range": [
+            73,
+            135
+          ],
+          "outlier_count": 0,
+          "outlier_rate": 0.0
+        }
+      },
+      "total_physical_outliers": 0,
+      "total_physical_outlier_rate": 0.0
+    }
+  },
+  "final_record_count": 500000,
+  "improvement": {
+    "completeness_improved": 0.0,
+    "duplicates_removed": 0,
+    "outliers_handled": 91621
+  }
+}
